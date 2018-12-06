@@ -1,0 +1,1298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>Agencify HTML Template</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" type="image/png" href="favicon.ico">
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+		body {
+			padding-bottom: 40px;
+		}
+
+		a {
+			color: #6A1B9A;
+		}
+
+		header {
+			background-color: #eee;
+			border-top: 10px solid #6A1B9A;
+			padding: 140px 0;
+			margin-bottom: 30px;
+		}
+
+		header h1 {
+			color: #6A1B9A;
+			text-align: center;
+			font-size: 30px;
+			margin-bottom: 20px;
+		}
+
+		.span9 h2 a {
+			font-size: 16px
+		}
+
+		header p {
+			text-align: center;
+		}
+
+		.nav {
+			width: 250px;
+			overflow-x: auto;
+			height: 500px;
+		}
+
+		.nav li a {
+			text-transform: capitalize;
+		}
+
+		.affix {
+			top: 40px;
+		}
+
+		.affix-top {
+			top: 200px;
+		}
+
+		hr {
+			border: 1px solid #ccc;
+			margin-bottom: 50px;
+		}
+
+		.icons {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+
+		.icons li {
+			float: left;
+			width: 25%;
+		}
+
+		.social-icons {
+			background-color: #3f3f3f;
+		}
+
+		.social-icons ul {
+			list-style: none;
+			margin: 0;
+			padding: 10px;
+		}
+
+		.social-icons li {
+			float: left;
+			width: 25%;
+			color: #fff;
+			margin-bottom: 10px;
+		}
+
+		.show-grid {
+			margin-top: 10px;
+			margin-bottom: 20px;
+		}
+
+		.show-grid [class*="span"] {
+			background-color: #eee;
+			text-align: center;
+			-webkit-border-radius: 3px;
+			-moz-border-radius: 3px;
+			border-radius: 3px;
+			min-height: 40px;
+			line-height: 40px;
+		}
+
+		.show-grid [class*="span"]:hover {
+			background-color: #ddd;
+		}
+
+		.show-grid .show-grid {
+			margin-top: 0;
+			margin-bottom: 0;
+		}
+
+		.show-grid .show-grid [class*="span"] {
+			margin-top: 5px;
+		}
+
+		.show-grid [class*="span"] [class*="span"] {
+			background-color: #ccc;
+		}
+
+		.show-grid [class*="span"] [class*="span"] [class*="span"] {
+			background-color: #999;
+		}
+	</style>
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+	<link rel="stylesheet" href="font/css/font-awesome.min.css">
+	<!--[if IE 7]><link rel="stylesheet" href="font/css/font-awesome-ie7.min.css"><![endif]-->
+
+
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shCore.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushJScript.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushXml.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushCss.js"></script>
+	<script type="text/javascript" src="js/syntaxhighlighter_3.0.83/scripts/shBrushPhp.js"></script>
+
+	<link type="text/css" rel="stylesheet" href="js/syntaxhighlighter_3.0.83/styles/shCoreDefault.css" />
+	<link type="text/css" rel="stylesheet" href="js/syntaxhighlighter_3.0.83/styles/shThemeRDark.css" />
+
+	<style>
+		.syntaxhighlighter .comments, .syntaxhighlighter .comments a {
+			color: #4CAF50 !important;
+		}
+	</style>
+
+	<script type="text/javascript">
+		SyntaxHighlighter.all();
+	</script>
+
+</head>
+
+<body>
+
+	<header id="toc">
+		<div class="container">
+			<div class="row">
+				<div class="span12">
+					<h1>"Agencify HTML Template"</h1>
+					<p>Thank you for purchasing my Template. If you have any questions that are beyond the scope of this help file,
+						please feel free to email via my user page contact form <a href="https://themeforest.net/user/xpeedstudio">here</a>.
+						Thanks so much!</p>
+					<p><strong>Created: 8/06/2018 | By: XpeedStudio | Support Desk <a href="https://support.xpeedstudio.com/">https://support.xpeedstudio.com/</a></strong></p>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="row">
+			<div class="span3">
+				<ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="200">
+					<li><a href="#html_structure"><i class="icon-angle-right"></i> HTML Structure</a></li>
+					<li><a href="#css_structure"><i class="icon-angle-right"></i> CSS Structure</a></li>
+
+					<li><a href="#color-styles"><i class="icon-angle-right"></i> Color Styles (Variations)</a></li>
+					<li><a href="#header-logo"><i class="icon-angle-right"></i> Brand / Logo</a></li>
+					<li><a href="#nav-links"><i class="icon-angle-right"></i> Navigation</a></li>
+					<li><a href="#single-page-menu"><i class="icon-angle-right"></i> Single Page Menu</a></li>
+					<li><a href="#full-screen-menu"><i class="icon-angle-right"></i> Full Screen Menu</a></li>
+					<li><a href="#remove-sticky-header"><i class="icon-angle-right"></i> Add sticky header class</a></li>
+					<li><a href="#section_heading"><i class="icon-angle-right"></i> Section heading</a></li>
+					<li><a href="#piechart"><i class="icon-angle-right"></i> Pie Chart</a></li>
+					<li><a href="#data_delighter"><i class="icon-angle-right"></i> Data Delighter</a></li>
+					<li><a href="#shuffle_title"><i class="icon-angle-right"></i> Shuffle Letter Title</a></li>
+					<li><a href="#material_input"><i class="icon-angle-right"></i> Material Input Style</a></li>
+					<li><a href="#pricing_table"><i class="icon-angle-right"></i> Pricing table</a></li>
+					<li><a href="#video_section"><i class="icon-angle-right"></i> video section</a></li>
+					<li><a href="#parallax_bg"><i class="icon-angle-right"></i> Parallax Image</a></li>
+					<li><a href="#blog_post"><i class="icon-angle-right"></i> Blog post</a></li>
+					<li><a href="#counter_up"><i class="icon-angle-right"></i> Counter up</a></li>
+					<li><a href="#team"><i class="icon-angle-right"></i> Team</a></li>
+					<li><a href="#portfolio_and_case"><i class="icon-angle-right"></i> Portfolio and case</a></li>
+					<li><a href="#portfolio_masonry"><i class="icon-angle-right"></i> Portfolio Masonry</a></li>
+					<li><a href="#contact"><i class="icon-angle-right"></i> Contact</a></li>
+					<li><a href="#contact_init"><i class="icon-angle-right"></i> Contact Init</a></li>
+					<li><a href="#phone_number_init"><i class="icon-angle-right"></i> Phone Number</a></li>
+					<li><a href="#subscribe_form"><i class="icon-angle-right"></i> Subscribe Form</a></li>
+					<li><a href="#google_map"><i class="icon-angle-right"></i> Map Api</a></li>
+
+					<li><a href="#javascript"><i class="icon-angle-right"></i> JavaScript</a></li>
+					<!--<li><a href="#psd-file"><i class="icon-angle-right"></i> PSD File</a></li>-->
+					<li><a href="#credits"><i class="icon-angle-right"></i> Credits</a></li>
+				</ul>
+			</div>
+			<div class="span9">
+
+				<div class="row" id="html_structure">
+					<div class="span9">
+						<h2><strong>HTML Structure</strong> - <a href="#top">top</a></h2>
+						<p>Agencify HTML Template is built with the Bootstrap 4 framework - that means you have access to all the great
+							features, css &amp; js goodies has to offer. Bootstrap includes a responsive, mobile first fluid grid system
+							that appropriately scales up to 12 columns as the device or viewport size increases.</p>
+						<p>To learn more about Bootstrap's grid system, please refer to <a href="https://getbootstrap.com/docs/4.1/layout/grid/">Bootstrap
+								4 Grid</a></p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="css_structure">
+					<div class="span9">
+						<h2><strong>CSS Structure</strong> - <a href="#top">top</a></h2>
+						<p>I'm using one main CSS file <strong>(assets/css/styles.css)</strong> and sass file available on <strong>(assets/sass/style.scss)</strong>,
+							in this template which you are free to modify depending on the customization you require. There are also other
+							additional style sheets that I do not recommend changing. Those style sheets reside in the 'css' folder and
+							'sass' file on 'sass' folder.</p>
+						<ul>
+							<li><strong>https://fonts.google.com/</strong> - Web font Cabin from Google Fonts</li>
+							<li><strong>bootstrap.min.css</strong> - This is a main stylesheet that required for basic template styling like
+								form, input, div, list element and etc.</li>
+							<li><strong>font-awesome.min.css</strong> - Web font containing all the icons from the Bootstrap framework and
+								more.</li>
+							<li><strong>styles.css</strong> - The main stylesheet you are encouraged to modify.</li>
+						</ul>
+						<p></p>
+						<p>The Styles CSS file contains all of the specific stylings for the page. The file is separated into sections
+							using:</p>
+						<pre class="brush: css">
+							/*****************
+
+							------------------------------- Table Of Content  ------------------------------------
+
+							1. Nav
+							2. Modal
+							3. Modal Flag
+							4. Modal Search
+							5. Offset Cart
+							6. Offset info bar
+							7. Offset side bar
+							8. preloader
+							9. social list
+
+							==================================== agency content ============================
+
+							10. agency banner
+							11. agency feature box
+							12. intro video section
+							13. creative comunication
+							14. parallax area
+							15. portfolio slider
+							16. testimonial review
+							17. blog thumb post
+							18. client slider
+							19. footer
+
+							==================================== inner page start =========================
+
+							20. inner page banner
+							21. counter up timer
+							22. team content
+							23. centerd timeline
+							24. office environment
+							25. service block
+							26. contact us block
+							27. agency cases
+							28. agency case details banner
+							29. agency case details about
+							30. agency project brief
+							31. agency working progress
+							32. agency call to action
+							33. agency pricing
+							34. agency contact
+							35. blog list
+							36. blog sidebar
+							37. blog single
+							38. comment area
+							39. comment form
+							40. parallax service
+							41. shop
+							42. product slider
+							43. single shop
+							44. product details
+							45. info block
+							46. about summary
+							47. success summary
+							48. call to action
+							49. testimonials
+							50. get subscribe
+							51. deserve it
+							52. we offer
+							53. more feature
+							54. bussiness agenda
+							55. best quote
+							56. about
+							57. horizontal timeline
+							58. get benifits
+							59. awards
+							60. growth card
+							61. creative protfolio
+							62. video testimonial
+							63. office info
+							64. feature step
+							65. customer satisfiction
+							66. vertical slider
+							67. icon menu
+
+							=================================== elemnt content ==============================
+
+							1. btn element
+							2. section title element
+							3. list element
+							4. video pop up element
+							5. insta feed element
+							6. newsletter element
+							7. pagination
+							8. select
+							9. search
+							10. product filter content
+							11. ribbon
+							12. offer promotion banner
+							13. custom number
+							14. floating buttons
+							15. woocommerce star rating
+							16. help tips
+							17. woo reviews
+							18. tabs
+							19. about slider
+							20. pie chart
+							21. scroll to bottom
+							22. content over image
+							23. vertical tabs
+							24. material style input
+							25. humburger
+							26. video testimonial
+							27. shuffle title
+							28. offcanvas menu
+							29. inheritance element
+
+
+
+							=====================================================**************************/
+						</pre>
+						<p>If you would like to edit a specific section of the site, simply find the appropriate label in the css or sass
+							file, and then scroll down until you find the appropriate style that needs to be edited.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="color-styles">
+					<div class="span9">
+						<h2><strong>Color Styles (Variations)</strong> - <a href="#top">top</a></h2>
+						<p>This theme comes with Unlimited color variations. To change the color style from the theme edit the following
+							lines:</p>
+						<pre class="brush: css">
+
+						...
+
+						// primary and secondary color list
+						$color-primary: #1868dd; // Navy Blue
+						$color-secondary: #103dbe; // Limerick
+						$color-ternary: #21069b;
+
+						// tilte color
+						$color-black: #000000
+
+						</pre>
+						<p>Just change the color code name for example form <code>$color-primary: #1868dd;</code> to <code>#114898</code>.
+							Available <code>assets/sass/variable/_variable.scss</code> directory</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="header-logo">
+					<div class="span9">
+						<h2><strong>Brand / Logo</strong> - <a href="#top">top</a></h2>
+						<p>To change the logo edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+
+						<!-- Logo start -->
+						<div class="xs-logo-wraper">
+							<a href="index.html" class="xs-logo">
+								<img src="assets/images/logo.png" alt="">
+							</a>
+						</div>
+						<!-- Logo end -->
+						...
+
+						<!-- Footer logo -->
+						<div class="footer-logo-wraper">
+							<a href="index.html" class="footer-logo">
+								<img src="assets/images/footer-logo.png" alt="footer logo">
+							</a>
+						</div>
+						<!-- footer logo end -->
+
+						</pre>
+						<p>The value is the header logo image path from the <code>assets/images/logo.png</code></p>
+						<p>The value is the footer logo image path from the <code>assets/images/footer-logo.png</code></p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="nav-links">
+					<div class="span9">
+						<h2><strong>Navigation</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a navigation item edit the following lines:</p>
+						<h2>After editing the navigation bar:</h2>
+						<pre class="brush: xml">
+							...
+							<!-- main nav linnks start -->
+							<nav class="xs-menus align-to-right">
+								<div class="nav-header">
+									<a class="nav-brand" href="index.html"></a>
+									<div class="nav-toggle"></div>
+								</div>
+								<div class="nav-menus-wrapper">
+									<!-- menu list -->
+									<ul class="nav-menu align-to-right">
+										<li><a href="#">HOME</a>
+											<div class="megamenu-panel home-menu-panel">
+												<div class="row">
+													<div class="col-lg-3">
+														<a href="index.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-1.jpg" alt="">
+															</div>
+															<h4>Home One Rev Slider</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v2.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-2.jpg" alt="">
+															</div>
+															<h4>Home Two</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v3.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-3.jpg" alt="">
+															</div>
+															<h4>Home Three</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v4.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-4.jpg" alt="">
+															</div>
+															<h4>Home Four</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v6.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-6.jpg" alt="">
+															</div>
+															<h4>Home Five</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v10.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-10.jpg" alt="">
+															</div>
+															<h4>Home Six Rev Slider</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v12.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-12.jpg" alt="">
+															</div>
+															<h4>Home Seven Rev Slider</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v13.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-13.jpg" alt="">
+															</div>
+															<h4>Home Eight</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v5.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-5.jpg" alt="">
+															</div>
+															<h4>Home Nine</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-portfolio.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-14.jpg" alt="">
+															</div>
+															<h4>Home Portfolio</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v7.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-7.jpg" alt="">
+															</div>
+															<h4>Home Ten Burger Menu</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v9.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-9.jpg" alt="">
+															</div>
+															<h4>Home Eleven</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v8.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-8.jpg" alt="">
+															</div>
+															<h4>Home Twelve</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v11.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-11.jpg" alt="">
+															</div>
+															<h4>Home Thirteem</h4>
+														</a>
+													</div>
+													<div class="col-lg-3">
+														<a href="index-v14.html" class="menu-content">
+															<div class="menu-image">
+																<img src="assets/images/home-screenshort/home-1.jpg" alt="">
+															</div>
+															<h4>Home Fourteen</h4>
+														</a>
+													</div>
+												</div>
+											</div>
+										</li>
+										<li><a href="about.html">ABOUT</a></li>
+										<li>
+											<a href="#">SERVICES</a>
+											<ul class="nav-dropdown xs-icon-menu">
+												<li class="single-menu-item">
+													<a href="service.html"><i class="icon icon-customer-service"></i> Service One</a>
+												</li>
+												<li class="single-menu-item">
+													<a href="parallax-service.html"><i class="icon icon-customer-service"></i> Service Two</a>
+												</li>
+											</ul>
+										</li>
+										<li><a href="#">PAGES</a>
+											<ul class="nav-dropdown xs-icon-menu">
+												<li class="single-menu-item"><a href="cases.html"><i class="icon icon-direction"></i> Case</a></li>
+												<li class="single-menu-item"><a href="case-details.html"><i class="icon icon-document"></i> Case Details</a></li>
+												<li class="single-menu-item"><a href="portfolio.html"><i class="icon icon-image"></i> Portfolio</a></li>
+												<li class="single-menu-item"><a href="portfolio-masonry.html"><i class="icon icon-image"></i> Portfolio Masnory</a></li>
+												<li class="single-menu-item"><a href="pricing.html"><i class="icon icon-bullhorn"></i> Pricing</a></li>
+												<li class="single-menu-item"><a href="contact.html"><i class="icon icon-envelope"></i> Contact</a></li>
+												<li class="single-menu-item"><a href="contact-v2.html"><i class="icon icon-envelope"></i> Contact Two</a></li>
+												<li class="single-menu-item"><a href="shop.html"><i class="icon icon-store2"></i> Shop</a></li>
+												<li class="single-menu-item"><a href="shop-v2.html"><i class="icon icon-cart"></i> Shop Version 2</a></li>
+												<li class="single-menu-item"><a href="shop-single.html"><i class="icon icon-store"></i> Shop Single</a></li>
+											</ul>
+										</li>
+										<li><a href="#">BLOG</a>
+											<ul class="nav-dropdown xs-icon-menu">
+												<li class="single-menu-item"><a href="news-list.html"><i class="icon icon-presentation2"></i> News List</a></li>
+												<li class="single-menu-item"><a href="blog-grid.html"><i class="icon icon-presentation2"></i> Blog Grid</a></li>
+												<li class="single-menu-item"><a href="blog-grid-sidebar.html"><i class="icon icon-presentation"></i> Blog Grid Sidebar</a></li>
+												<li class="single-menu-item"><a href="blog-single.html"><i class="icon icon-presentation"></i> Blog Single</a></li>
+												<li class="single-menu-item"><a href="blog-single-sidebar.html"><i class="icon icon-presentation"></i> Blog Single Sidebar</a></li>
+											</ul>
+										</li>
+									</ul><!-- End menu list -->
+								</div>
+							</nav>
+							<!-- .xs-menus -->
+						</pre>
+						<p>The link "href" is the page link from the element for the "goes to" action.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="single-page-menu">
+					<div class="span9">
+						<h2><strong>Single Page Menu</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a navigation item edit the following lines:</p>
+						<h2>After editing the navigation bar:</h2>
+						<pre class="brush: xml">
+							...
+							<!-- side nav bar for single page menu -->
+							<div class="header-transparent nav-sticky nav-light">
+								<!-- header section -->
+								<div class="off-canvas-menu-area">
+								<div class="container">
+									<div class="offset-menu-wraper clearfix">
+										<div class="float-left">
+											<a href="index.html" class="offcanvas-nav-brand">
+												<img src="assets/images/logo-5.png" alt="">
+											</a>
+										</div>
+										<div class="float-right">
+											<div class="offsetmenu-btn humburger fullscreen_menu_tigger clearfix">
+												<div class="humburger-icons">
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="offcanvas-menu-wraper clearfix">
+									<div class="menu-container">
+										<ul class="offcanvas-menu single-page-menu">
+											<li><a href="#homes">HOME</a></li>
+											<li><a href="#services">SERVICE</a></li>
+											<li><a href="#testimonial">TESTIMONIAL</a></li>
+										</ul>
+									</div>
+									<div class="offcanvas-content-wraper">
+										<div class="offcanvas-content">
+											<h2 class="offcanvas-title">GET IN TOUCH</h2>
+											<ul class="offcanvas-list-widget">
+												<li>
+													<p><i class="icon icon-map-marker2"></i><a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" target="_blank">179 MADISON ST. OLIVER AV. <br> NEW YORK, NY-12548</a></p>
+												</li>
+												<li>
+													<p><i class="icon icon-phone-call3"></i><a href="tel:+1%20(254)%20854-6987">+1 (254) 854-6987</a></p>
+												</li>
+												<li>
+													<p><i class="icon icon-envelope4"></i><a href="mailto:info@example.com">INFO@EXAMPLE.COM</a></p>
+												</li>
+											</ul>
+											<h2 class="offcanvas-title">GET SOCIAL TOGETHER</h2>
+											<ul class="social-list version-4">
+												<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>    <!-- End header section -->
+							</div>
+							<!-- end side nav bar for single page menu -->
+						</pre>
+						<p>The link "href" is the page link from the element for the "goes to" action.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="full-screen-menu">
+					<div class="span9">
+						<h2><strong>Full Screen Menu</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a navigation item edit the following lines:</p>
+						<h2>After editing the navigation bar:</h2>
+						<pre class="brush: xml">
+							...
+							<!-- full screen menu start -->
+							<div class="header-transparent nav-sticky nav-light" data-scroll-to="top">
+								<!-- header section -->
+								<div class="off-canvas-menu-area">
+								<div class="container">
+									<div class="offset-menu-wraper clearfix">
+										<div class="float-left">
+											<a href="index.html" class="offcanvas-nav-brand">
+												<img src="assets/images/logo-7.png" alt="">
+											</a>
+										</div>
+										<div class="float-right">
+											<div class="humburger style2 fullscreen_menu_tigger">
+												<div class="humburger-icons">
+													<span></span>
+													<span></span>
+													<span></span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="offcanvas-menu-wraper clearfix">
+									<div class="menu-container">
+										<!-- offcanvas menu section -->
+										<ul class="offcanvas-menu">
+								<li><a href="#">HOME</a>
+									<ul class="inner-submenu">
+										<li><a href="index.html" class="menu-content">HOME ONE REV SLIDER</a></li>
+										<li><a href="index-v2.html" class="menu-content">HOME TWO</a></li>
+										<li><a href="index-v3.html" class="menu-content">HOME THREE</a></li>
+										<li><a href="index-v4.html" class="menu-content">HOME FOUR</a></li>
+										<li><a href="index-v5.html" class="menu-content">HOME FIVE</a></li>
+										<li><a href="index-v6.html" class="menu-content">HOME SIX</a></li>
+										<li><a href="index-v7.html" class="menu-content">HOME SEVEN BURGER MENU</a></li>
+										<li><a href="index-v8.html" class="menu-content">HOME EIGHT</a></li>
+										<li><a href="index-v9.html" class="menu-content">HOME NINE</a></li>
+										<li><a href="index-v10.html" class="menu-content">HOME TEN REV SLIDER</a></li>
+										<li><a href="index-v11.html" class="menu-content">HOME ELEVEN</a></li>
+										<li><a href="index-v12.html" class="menu-content">HOME TWELVE REV SLIDER</a></li>
+										<li><a href="index-v13.html" class="menu-content">HOME THIRTEEN</a></li>
+										<li><a href="index-v14.html" class="menu-content">HOME FOURTEEN</a></li>
+										<li><a href="index-portfolio.html " class="menu-content">HOME PORTFOLIO</a></li>
+									</ul>
+								</li>
+								<li><a href="about.html">ABOUT</a></li>
+								<li>
+									<a href="#">SERVICES</a>
+									<ul class="inner-submenu">
+										<li><a href="service.html">SERVICE ONE</a></li>
+										<li><a href="parallax-service.html">SERVICE TWO</a></li>
+									</ul>
+								</li>
+								<li><a href="#">PAGES</a>
+									<ul class="inner-submenu">
+										<li><a href="#">CASE</a>
+											<ul class="inner-submenu">
+												<li><a href="cases.html">CASE</a></li>
+												<li><a href="case-details.html">CASE DETAILS</a></li>
+											</ul>
+										</li>
+										<li><a href="#">PORTFOLIO</a>
+											<ul class="inner-submenu">
+												<li><a href="portfolio.html">PORTFOLIO</a></li>
+												<li><a href="portfolio-masonry.html">PORTFOLIO MASNORY</a></li>
+											</ul>
+										</li>
+										<li><a href="pricing.html">PRICING</a></li>
+										<li><a href="#">CONTACT</a>
+											<ul class="inner-submenu">
+												<li><a href="contact.html">CONTACT</a></li>
+												<li><a href="contact-v2.html">CONTACT TWO</a></li>
+											</ul>
+										</li>
+										<li><a href="#">SHOP</a>
+											<ul class="inner-submenu">
+												<li><a href="shop.html">SHOP</a></li>
+												<li><a href="shop-v2.html">SHOP VERSION 2</a></li>
+												<li><a href="shop-single.html">SHOP SINGLE</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li><a href="#">BLOG</a>
+									<ul class="inner-submenu">
+										<li><a href="news-list.html">NEWS LIST</a></li>
+										<li><a href="blog-grid.html">BLOG GRID</a></li>
+										<li><a href="blog-grid-sidebar.html">BLOG GRID SIDEBAR</a></li>
+										<li><a href="#">BLOG SINGLE</a>
+											<ul class="inner-submenu">
+												<li><a href="blog-single.html">BLOG SINGLE</a></li>
+												<li><a href="blog-single-sidebar.html">BLOG SINGLE SIDEBAR</a></li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+							</ul>            <!-- offcanvas menu section end -->
+									</div>
+									<div class="offcanvas-content-wraper">
+										<div class="offcanvas-content">
+											<h2 class="offcanvas-title">GET IN TOUCH</h2>
+											<ul class="offcanvas-list-widget">
+												<li>
+													<p><i class="icon icon-map-marker2"></i><a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom"
+															target="_blank">179 MADISON ST. OLIVER AV. <br> NEW YORK, NY-12548</a></p>
+												</li>
+												<li>
+													<p><i class="icon icon-phone-call3"></i><a href="tel:+1%20(254)%20854-6987">+1 (254) 854-6987</a></p>
+												</li>
+												<li>
+													<p><i class="icon icon-envelope4"></i><a href="mailto:info@example.com">INFO@EXAMPLE.COM</a></p>
+												</li>
+											</ul>
+											<h2 class="offcanvas-title">GET SOCIAL TOGETHER</h2>
+											<ul class="social-list version-4">
+												<li><a href="#" class="facebook"><i class="fa fa-facebook"></i></a></li>
+												<li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+												<li><a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a></li>
+												<li><a href="#" class="instagram"><i class="fa fa-instagram"></i></a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>    <!-- End header section -->
+							</div>
+
+								<!--full screen menu end  -->
+						</pre>
+						<p>The link "href" is the page link from the element for the "goes to" action.</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="remove-sticky-header">
+					<div class="span9">
+						<h2><strong>Add or remove sticky header</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a navigation item edit the following lines:</p>
+						<strong>Class Name</strong> <code>nav-sticky</code>
+						<img src="img/screenshort/img-1.png" alt="">
+						<hr />
+						<strong>Attribute Name</strong> <code>data-scroll-to="top"</code>
+						<img src="img/screenshort/img-2.png" alt="">
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="section_heading">
+					<div class="span9">
+						<h2><strong>Section heading</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a team edit the following lines:</p>
+						<pre class="brush: xml">
+							...
+							<!-- section heading -->
+							<div class="row">
+								<div class="col-lg-8 mx-auto">
+									<div class="agency-section-title text-center">
+										<h3 class="sub-title">TESTIMONIALS</h3>
+										<h4 class="main-title">Love from <em>Clients</em></h4>
+										<span class="watermark-title" data-scrollax="properties: { translateY: '-250px' }">REVIEW</span>
+									</div>
+								</div>
+							</div>
+							<!-- section heading end -->
+
+						</pre>
+						<p>You add title parallax just add <code>data-scrollax="properties: { translateY: '-250px' }"</code> this code
+							and also add parent <code>data-scrollax-parent="true"</code>.</p>
+						<p>Remove parallax title just remove <code>data-scrollax="properties: { translateY: '-250px' }"</code> and also
+							<code>data-scrollax-parent="true"</code></p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="piechart">
+					<div class="span9">
+						<h2><strong>Pie Chart</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a team edit the following lines:</p>
+						<pre class="brush: xml">
+							...
+							<div class="chart" data-percent="75">
+								<div class="chart-content"></div>
+							</div>
+						</pre>
+						<p>Add or remove pie chart content just change <code>data-percent="75"</code> to <code>data-percent="80"</code> or as your wish</p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="data_delighter">
+					<div class="span9">
+						<h2><strong>Data Delighter</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a team edit the following lines:</p>
+						<img src="img/screenshort/img-3.png" alt="">
+						<hr>
+						<p>Add or remove data delighter offset jsut change vaule <code>data-delighter="start:0.80"</code> to <code>data-delighter="start:0.10"</code> or anything else</p>
+					</div>
+				</div>
+
+				<div class="row" id="shuffle_title">
+					<div class="span9">
+						<h2><strong>Shuffle Letter Title</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a team edit the following lines:</p>
+						<img src="img/screenshort/img-4.png" alt="">
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="material_input">
+					<div class="span9">
+						<h2><strong>Material Input Style</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a team edit the following lines:</p>
+						<strong>Just Add Class</strong> <code>input-material</code>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="pricing_table">
+					<div class="span9">
+						<h2><strong>Pricing plan table</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a pricing table edit the following lines:</p>
+						<pre class="brush: xml">
+							...
+							<div class="col-lg-4 col-md-6">
+								<div class="pricing-table text-center" id="svg-icon-1">
+									<div class="pricing-header">
+										<div class="xs-svg" data-svg="assets/images/pricing/pricing-1.svg" data-hover="#svg-icon-1"></div>
+										<h5>Starter</h5>
+										<div class="price">
+											<h2>$5.99</h2>
+											<span>/ MONTHS</span>
+										</div>
+									</div><!-- .pricing-header END -->
+									<div class="pricing-body">
+										<ul class="pricing-list">
+											<li>Single Pages</li>
+											<li>05 Webmails</li>
+											<li>02 Services</li>
+											<li>No Featured Services</li>
+										</ul>
+									</div><!-- .pricing-body END -->
+									<div class="pricing-footer">
+										<a href="#" class="btn btn-outline-primary btn-agency">Purchase <i class="icon icon-right-arrow2"></i></a>
+									</div><!-- .pricing-footer END -->
+								</div><!-- .pricing-table END #svg-icon-1 end -->
+							</div>
+						</pre>
+					</div>
+				</div>
+
+				<div class="row" id="video_section">
+					<div class="span9">
+						<h2><strong>video section</strong> - <a href="#top">top</a></h2>
+						<p>To add or change video content edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+						<!-- Video start -->
+						<a href="https://www.youtube.com/watch?v=BJq4d1-lHq8" class="xs-video-popup video-content btn-gradient">
+							<i class="icon icon-play-button2"></i>
+						</a>
+						<!-- Video end -->
+
+						</pre>
+						<p>you add your custom video just following instructions: got to <code>https://www.youtube.com/</code> <strong>copy
+								video url</strong> and <strong>paste</strong> it</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="parallax_bg">
+					<div class="span9">
+						<h2><strong>Parallax image</strong> - <a href="#top">top</a></h2>
+						<p>To add or change parallax image open file <code> eaxmple (filename.html)</code>change image <code>assets/images/paralax-bg/paralax-bg-1.png</code>,
+							find and edit code below:</p>
+						<pre class="brush: js">
+					...
+
+					<div class="parallax-slide" style="background-image: url(assets/images/paralax-bg/paralax-bg-1.png)"></div>
+
+					...
+
+						</pre>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="blog_post">
+					<div class="span9">
+						<h2><strong>Blog post</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a blog post content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+						<!-- blog post start -->
+						<div class="col-lg-4 col-md-6">
+							<div class="single-blog">
+								<div class="post-image">
+									<img src="assets/images/blog/agency-blog-1.jpg" alt="">
+								</div><!-- .post-image end -->
+								<div class="post-body">
+									<div class="entry-header text-center">
+										<h4 class="entry-title">
+											<a href="blog-single.html">We design platform for all global customers</a>
+										</h4>
+										<div class="entry-meta">
+											<span class="post-meta-date">20 March, 2018</span>
+										</div>
+									</div>
+									<div class="post-footer media">
+										<div class="media-body">
+											<img src="assets/images/avatar/img1.png" alt="">
+											<a href="#">by Jhon Kenedy</a>
+										</div>
+										<ul class="xs-list list-inline">
+											<li><a href="#"><i class="icon icon-share"></i></a></li>
+											<li><a href="#"><i class="icon icon-chat"></i></a></li>
+										</ul>
+									</div>
+								</div><!-- .post-body end -->
+							</div><!-- .single-blog post end -->
+						</div>
+						<!-- blog post end -->
+						</pre>
+					</div>
+				</div>
+
+
+				<div class="row" id="counter_up">
+					<div class="span9">
+						<h2><strong>Counter up</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a blog post content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+						<!-- blog post start -->
+						<span class="number-percentage-count number-percentage" data-value="2006" data-animation-duration="3500">0</span>
+						<!-- blog post end -->
+						</pre>
+						<p>To add your custom counter up number just follow my instructions <code>data-value="2006"</code> to change
+							<code>data-value="4000"</code></p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="team">
+					<div class="span9">
+						<h2><strong>Team</strong> - <a href="#top">top</a></h2>
+						<p>To add or change team content edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+						<!-- team -->
+						<div class="agency-single-team">
+							<div class="image">
+								<img src="assets/images/team/1.jpg" alt="">
+							</div>
+							<div class="hover-area text-center">
+								<h4 class="xs-title"><a href="#">James Cameron</a></h4>
+								<span>SOFTWARE ENGINEER</span>
+								<p>We work systematically integrate corporate responsibility in our core business and make our expertise available the benefit of the societies where we</p>
+								<ul class="simple-social-list">
+									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+								</ul>
+							</div><!-- .hover-area END -->
+						</div><!-- .agency-single-team END -->
+						<!-- team end -->
+
+						</pre>
+						<p>change team image and add your own image just following instructions: <code>assets/images/team/1.jpg</code>
+						</p>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="portfolio_and_case">
+					<div class="span9">
+						<h2><strong>Portfolio and case</strong> - <a href="#top">top</a></h2>
+						<p>To add or change portfolio and case content edit the following lines:</p>
+						<pre class="brush: xml">
+						...
+						<!-- portfolio and casae -->
+						<div class="single-cases-card">
+							<div class="card-image">
+								<img src="assets/images/cases-card/1.jpg" alt="">
+							</div><!-- .card-image END -->
+							<div class="cases-content">
+								<h4 class="xs-title">
+									<a href="case-details.html">Software Festivals Stall</a>
+								</h4>
+								<span class="tag">Packaging  / Photography</span>
+							</div><!-- .cases-content END -->
+						</div><!-- .single-cases-card END -->
+						<!-- portfolio and casae end -->
+
+						</pre>
+						<p>change portfolio and case image and add your own image just following instructions: <code>assets/images/cases-card/1.jpg</code>
+						</p>
+						<hr />
+					</div>
+				</div>
+
+
+				<div class="row" id="portfolio_masonry">
+					<div class="span9">
+						<h2><strong>Portfolio masonry element</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a portfolio masonry edit the following lines:</p>
+						<pre class="brush: xml">
+							<div class="single-cases-card">
+								<div class="card-image">
+									<img src="assets/images/cases-card/7.jpg" alt="">
+									<div class="hover-content">
+										<a href="assets/images/cases-card/7.jpg" class="xs-image-popup"><i class="icon icon-zoom-in"></i></a>
+									</div>
+								</div><!-- .card-image END -->
+								<div class="cases-content">
+									<h4 class="xs-title">
+										<a href="case-details.html">Software Festivals</a>
+									</h4>
+									<span class="tag">Photography</span>
+								</div><!-- .cases-content END -->
+							</div><!-- .single-cases-card END -->
+						</pre>
+						<p>change portfolio masonry image and add your own image just following instructions: <code>assets/images/cases-card/7.jpg</code>
+						</p>
+						<hr />
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="contact">
+					<div class="span9">
+						<h2><strong>Contact</strong> - <a href="#top">top</a></h2>
+						<p>To add or change a contact filed edit the following lines:</p>
+						<pre class="brush: xml">
+					...
+
+						<!-- contact form start -->
+						<form action="#" id="xs-contact-form" class="contact-form" method="post">
+							<div class="row">
+								<div class="col-lg-6">
+									<input type="text" placeholder="Name *" name="name" id="xs_contact_name" class="form-control">
+								</div>
+								<div class="col-lg-6">
+									<input type="email" placeholder="Email *" name="email" id="xs_contact_email" class="form-control">
+								</div>
+							</div>
+							<input type="text" placeholder="Subject *" name="subject" id="xs_contact_subject" class="form-control">
+							<textarea name="massage" id="x_contact_massage" placeholder="Your Message... *" class="form-control" cols="30" rows="10"></textarea>
+							<input type="submit" name="submit" id="xs_contact_submit" class="submit-btn" value="Submit">
+						</form>
+						<!-- contact form end -->
+						</pre>
+						<hr />
+					</div>
+				</div>
+
+				<div class="row" id="contact_init">
+					<div class="span9">
+						<h2><strong>Contact</strong> - <a href="#top">top</a></h2>
+						<p>The Contact form is based on jQuery. You don't have to know PHP. To change sample email adress, open <code>assets/php/c_config.php</code>,
+							find and edit code below:</p>
+						<pre class="brush: xml">
+								...
+								<!-- put your email address here -->
+
+								define('YOUR_EMAIL_ADDRESS', 'info@example.com');
+								define('YOUR_EMAIL_SUBJECT', 'your mail subject');
+								define('YOUR_SUCCESS_MASSAGE', 'Successfully Sent Email');
+
+						</pre>
+					</div>
+				</div>
+
+				<div class="row" id="phone_number_init">
+					<div class="span9">
+						<h2><strong>Phone number</strong> - <a href="#top">top</a></h2>
+						<p>To add or change your custom number find and edit code below:</p>
+						<pre class="brush: xml">
+							...
+							<a href="tel:+1%20(254)%20587-2548">+1 (254) 587-2548</a>
+						</pre>
+						<p>you add your own number just follow it <code>tel:+1%20(254)%20587-2548</code> you fill your space <code>%20</code>
+							and its working fine</p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="subscribe_form">
+					<div class="span9">
+						<h2><strong>Subscribe form</strong> - <a href="#top">top</a></h2>
+						<p>To add or change your custom number find and edit code below:</p>
+						<pre class="brush: xml">
+							<form action="#" class="newsletter-form subscribe-form" method="POST">
+								<input type="email" name="email" id="sub-input-one" placeholder="Your Email" class="form-control">
+								<label for="sub-input-one"></label>
+								<button type="submit" class="send-button"><i class="icon icon-paper-plane"></i></button>
+							</form><!-- .newsletter-form END -->
+							...
+							if ($('.subscribe-form').length > 0) {
+								$('.subscribe-form').ajaxChimp({
+									url: 'https://facebook.us8.list-manage.com/subscribe/post?u=85f515a08b87483d03fee7755&amp;id=66389dc38b'
+								});
+							}
+						</pre>
+						<p>you add your own number just follow this two link <a href="https://support.xpeedstudio.com/knowledgebase/how-to-get-a-mailchimp-form-action-url/"
+							 target="_blank">How to get a MailChimp form action URL</a> <br> <a href="https://support.xpeedstudio.com/obtain-your-mailchimp-form-action-url/"
+							 target="_blank">Obtain Your MailChimp Form Action URL</a></p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="google_map">
+					<div class="span9">
+						<h2><strong>Google Map</strong> - <a href="#top">top</a></h2>
+						<p>To add or change your custom number find and edit code below:</p>
+						<p><strong>Map Api Issue</strong><a href="https://support.xpeedstudio.com/knowledgebase/how-to-create-map-api-key/" target="_blank">How To Create Map Api Key</a></p>
+						<p><strong>Open map shortcode and create an API key from description link</strong><a href="https://console.developers.google.com/flows/enableapi?apiid=places_backend,maps_backend,geocoding_backend,directions_backend,distance_matrix_backend,elevation_backend&keyType=CLIENT_SIDE&reusekey=true" target="_blank">Click here</a></p>
+						<hr>
+					</div>
+				</div>
+
+				<div class="row" id="javascript">
+					<div class="span9">
+						<h2><strong>JavaScript</strong> - <a href="#top">top</a></h2>
+						<p>This theme imports the following Javascript files.</p>
+						<ul>
+							<li>assets/js/jquery-3.2.1.min.js</li>
+							<li>assets/js/plugins.js</li>
+							<li>assets/js/bootstrap.min.js</li>
+							<li>assets/js/isotope.pkgd.min.js</li>
+							<li>assets/js/jquery.magnific-popup.min.js</li>
+							<li>assets/js/owl.carousel.min.js</li>
+							<li>assets/js/jquery.parallax-scroll.js</li>
+							<li>assets/js/jquery.ajaxchimp.min.js</li>
+							<li>assets/js/jquery.parallax.js</li>
+							<li>https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyCy7becgYuLwns3uumNm6WdBYkBpLfy44k</li>
+							<li>assets/js/main.js</li>
+						</ul>
+						<hr />
+					</div>
+				</div>
+
+
+<!--				<div class="row" id="psd-file">
+					<div class="span9">
+						<h2><strong>PSD Files</strong> - <a href="#top">top</a></h2>
+						<p>The following Photoshop file are included with the download package place in /PSD/ folder: <br />
+							<strong>agencify.psd</strong>
+						</p>
+						<hr />
+					</div>
+				</div>-->
+
+
+				<div class="row" id="credits">
+					<div class="span9">
+						<h2><strong>Credits</strong> - <a href="#top">top</a></h2>
+						<ul class="nav nav-list">
+							<li><a href="http://getbootstrap.com/" target="_blank"><i class="icon-angle-right"></i> Twitter Bootstrap</a></li>
+							<li><a href="http://fortawesome.github.io/Font-Awesome/" target="_blank"><i class="icon-angle-right"></i> Font
+									Awesome</a></li>
+							<li><a href="https://owlcarousel2.github.io/OwlCarousel2/index.html" target="_blank"><i class="icon-angle-right"></i>
+									owl carousel</a></li>
+							<li><a href="http://jquery.com/" target="_blank"><i class="icon-angle-right"></i> jQuery</a></li>
+						</ul>
+						<hr />
+						<p>Once again, thank you so much for purchasing this template. As I said at the beginning, I'd be glad to help
+							you if you have any questions relating to this template. No guarantees, but I'll do my best to assist. If you
+							have a more general question relating to the templates on ThemeForest, you might consider visiting the forums
+							and asking your question in the "Item Discussion" section.</p>
+						<p><strong>XpeedStudio</strong></p>
+						<p></p>
+						<p><a href="#top">Go To Table of Contents</a></p>
+					</div>
+				</div>
+
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script>
+		jQuery(document).ready(function ($) {
+			$(document).on('click', '.nav-tabs li a', function (event) {
+				event.preventDefault();
+				/* Act on the event */
+
+				var targets = $(this.getAttribute('href'));
+
+				$('body, html').animate({
+					scrollTop: targets.offset().top
+				}, 1000);
+			});
+
+			$(document).on('click', '.span9 a[href="#top"]', function (event) {
+				event.preventDefault();
+				/* Act on the event */
+
+				$('body, html').animate({
+					scrollTop: 0
+				}, 1000);
+			});
+		});
+	</script>
+</body>
+
+</html>
